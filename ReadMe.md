@@ -20,5 +20,5 @@ install dev-dependencies: - @types/express
 --apply all thirdparty middleware and create express server and apply graphqlHTTP middleware to 'graphql'
 
 --create schema file and export GraphQLSchema instance along with
-Query and Mutation types attached
+query and mutation types attached
 #Server setup----------------------------------------------------end
