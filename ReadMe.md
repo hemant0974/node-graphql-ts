@@ -14,8 +14,11 @@ dev-dependency:- @types/node nodemon rimraf ts-node
 #Project setup---------------------------------------------end
 
 #Server setup---------------------------------------------------start
---install dependencies :- express express-graphql dotenv cors
+--install dependencies :- express graphql@15.3 express-graphql dotenv cors
 install dev-dependencies: - @types/express
 
 --apply all thirdparty middleware and create express server and apply graphqlHTTP middleware to 'graphql'
+
+--create schema file and export GraphQLSchema instance along with
+Query and Mutation types attached
 #Server setup----------------------------------------------------end
